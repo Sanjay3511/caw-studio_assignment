@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class CawStudiosTest extends SeleniumSetup
 {
-    @Test(description = "land on the given url, you will have", priority = 1)
+    @Test(description = "land on the given url", priority = 1)
     public void get_url(){
         TestPage testPage = new TestPage(driver);
         testPage.getUrl();

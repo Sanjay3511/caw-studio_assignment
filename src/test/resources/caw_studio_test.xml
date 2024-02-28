@@ -8,11 +8,11 @@
         <classes>
             <class name="testcase.CawStudiosTest">
                 <methods>
-                    <include name="getUrl"/>
+                    <include name="get_url"/>
                     <include name="click_on_table_data"/>
                     <include name="insert_data_in_input_box"/>
                     <include name="refresh_table"/>
-                    <include name="assert_data"/>
+                    <include name="assert_table_data"/>
                 </methods>
             </class>
         </classes>
