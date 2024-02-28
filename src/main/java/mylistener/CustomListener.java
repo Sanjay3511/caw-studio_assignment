@@ -25,7 +25,7 @@ public  class CustomListener extends SeleniumSetup  implements ITestListener {
     public void onTestSuccess(ITestResult result) {
         test.log(Status.PASS,"Test Passed");
         try {
-            Thread.sleep(2);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -67,7 +67,7 @@ public  class CustomListener extends SeleniumSetup  implements ITestListener {
     @Override
     public void onStart(ITestContext context) {
         try {
-            Thread.sleep(2);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
