@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="mylistener.CustomListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="CAW-STUDIOS-ASSIGNMENT-TEST">
+        <classes>
+            <class name="testcase.CawStudiosTest">
+                <methods>
+                    <include name="getUrl"/>
+                    <include name="click_on_table_data"/>
+                    <include name="insert_data_in_input_box"/>
+                    <include name="refresh_table"/>
+                    <include name="assert_data"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
